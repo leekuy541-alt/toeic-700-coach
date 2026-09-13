@@ -1,4 +1,5 @@
 import type { AppState, Page } from '../types';
+import { LC_COUNTS } from '../data/listening';
 
 interface Props {
   state: AppState;
@@ -7,14 +8,18 @@ interface Props {
 
 export default function Home({ state, onNavigate }: Props) {
   const score = state.lastPart5Score;
+  const lcTotal =
+    LC_COUNTS.part1 + LC_COUNTS.part2 + LC_COUNTS.part3 + LC_COUNTS.part4;
 
   return (
     <div className="page home">
       <header className="hero">
         <p className="eyebrow">초보 → 700점</p>
         <h1>토익700</h1>
-        <p className="goal">목표: <strong>700점 / 한 달</strong></p>
-        <p className="sub">교과서 없이, 매일 조금씩. 오늘도 한 세트만 해 보세요.</p>
+        <p className="goal">
+          목표: <strong>700점 / 한 달</strong>
+        </p>
+        <p className="sub">교과서 없이, 매일 조금씩. LC·RC 함께 연습하세요.</p>
       </header>
 
       <section className="stats">
@@ -40,6 +45,9 @@ export default function Home({ state, onNavigate }: Props) {
       <section className="quick-actions">
         <button className="action primary" onClick={() => onNavigate('today')}>
           📅 오늘의 학습 시작
+        </button>
+        <button className="action" onClick={() => onNavigate('listening')}>
+          🎧 듣기 LC (Part 1–4) · {lcTotal}세트/문항
         </button>
         <button className="action" onClick={() => onNavigate('part5')}>
           ✏️ Part 5 퀴즈

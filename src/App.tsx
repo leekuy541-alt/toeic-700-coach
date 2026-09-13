@@ -6,11 +6,13 @@ import Part5Quiz from './pages/Part5Quiz';
 import Vocab from './pages/Vocab';
 import TodayStudy from './pages/TodayStudy';
 import PartsGuide from './pages/PartsGuide';
+import Listening from './pages/Listening';
 import './App.css';
 
 const NAV: { id: Page; label: string; icon: string }[] = [
   { id: 'home', label: '홈', icon: '🏠' },
   { id: 'today', label: '오늘', icon: '📅' },
+  { id: 'listening', label: '듣기', icon: '🎧' },
   { id: 'part5', label: 'Part5', icon: '✏️' },
   { id: 'vocab', label: '단어', icon: '📚' },
   { id: 'guide', label: '가이드', icon: '🗺️' },
@@ -26,6 +28,7 @@ export default function App() {
     <div className="app">
       <main className="main">
         {page === 'home' && <Home state={state} onNavigate={go} />}
+        {page === 'listening' && <Listening />}
         {page === 'part5' && <Part5Quiz state={state} setState={setState} />}
         {page === 'vocab' && <Vocab state={state} setState={setState} />}
         {page === 'today' && <TodayStudy state={state} setState={setState} />}

@@ -378,7 +378,7 @@
   transform: translateX(-50%);
   width: min(480px, 100%);
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   background: #fff;
   border-top: 1px solid var(--border);
   padding: 0.35rem 0.25rem calc(0.35rem + env(safe-area-inset-bottom));
@@ -412,4 +412,134 @@
     border-left: 1px solid var(--border);
     border-right: 1px solid var(--border);
   }
+}
+
+/* Listening LC */
+.back-link {
+  border: none;
+  background: transparent;
+  color: var(--primary);
+  font-weight: 600;
+  padding: 0;
+  margin-bottom: 0.75rem;
+}
+
+.lc-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin-top: 0.75rem;
+}
+
+.lc-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.lc-card span {
+  font-weight: 500;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.lc-photo {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  margin-bottom: 0.75rem;
+  background: #e2e8f0;
+}
+
+.audio-player {
+  margin-bottom: 0.75rem;
+}
+
+.audio-controls {
+  display: flex;
+  gap: 0.45rem;
+}
+
+.audio-btn {
+  flex: 1;
+  text-align: center;
+  padding: 0.7rem 0.5rem;
+  font-size: 0.92rem;
+}
+
+.audio-btn.secondary {
+  background: #f8fafc;
+}
+
+.accent-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.5rem 0;
+}
+
+.accent-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+.accent-badge.accent-미국 {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.accent-badge.accent-영국 {
+  background: #fce7f3;
+  color: #9d174d;
+}
+
+.accent-badge.accent-호주 {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.mini-accent {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.transcript {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 0.92rem;
+}
+
+.transcript summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #1e40af;
+}
+
+.transcript-box {
+  margin: 0.55rem 0;
+  padding: 0.75rem;
+  background: #f8fafc;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.lc-set-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #334155;
+}
+
+.q-text {
+  margin: 0;
+  font-weight: 600;
+}
+
+.nav-label {
+  font-size: 0.62rem;
 }

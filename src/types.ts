@@ -1,4 +1,4 @@
-export type Page = 'home' | 'part5' | 'vocab' | 'today' | 'guide';
+export type Page = 'home' | 'part5' | 'vocab' | 'today' | 'guide' | 'listening';
 
 export interface Part5Question {
   id: number;

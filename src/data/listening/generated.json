@@ -1,0 +1,1268 @@
+{
+  "voices": {
+    "US-F1": "en-US-JennyNeural",
+    "US-M1": "en-US-GuyNeural",
+    "US-F2": "en-US-AriaNeural",
+    "UK-F1": "en-GB-SoniaNeural",
+    "UK-M1": "en-GB-RyanNeural",
+    "AU-F1": "en-AU-NatashaNeural",
+    "AU-M1": "en-AU-WilliamMultilingualNeural"
+  },
+  "part1": [
+    {
+      "id": 1,
+      "image": "images/part1/p01.jpg",
+      "imageAlt": "People sitting around a conference table in an office",
+      "imageSeed": "office-meeting-01",
+      "audio": "audio/part1/item01.mp3",
+      "statements": [
+        {
+          "text": "A woman is giving a presentation to colleagues.",
+          "accent": "미국",
+          "voice": "en-US-JennyNeural"
+        },
+        {
+          "text": "People are sitting around a conference table.",
+          "accent": "영국",
+          "voice": "en-GB-RyanNeural"
+        },
+        {
+          "text": "A man is watering office plants.",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        },
+        {
+          "text": "Workers are packing boxes near a door.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 1,
+      "explanationKo": "사진에는 회의 테이블에 앉아 있는 사람들이 보입니다. B가 정답입니다. A의 발표 장면, C의 물주기, D의 상자 포장은 보이지 않습니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 2,
+      "image": "images/part1/p02.jpg",
+      "imageAlt": "A person walking outdoors on a path",
+      "imageSeed": "walking-outdoors-02",
+      "audio": "audio/part1/item02.mp3",
+      "statements": [
+        {
+          "text": "Someone is walking along a path outdoors.",
+          "accent": "호주",
+          "voice": "en-AU-WilliamMultilingualNeural"
+        },
+        {
+          "text": "A cyclist is repairing a bicycle.",
+          "accent": "미국",
+          "voice": "en-US-AriaNeural"
+        },
+        {
+          "text": "Children are playing in a fountain.",
+          "accent": "영국",
+          "voice": "en-GB-SoniaNeural"
+        },
+        {
+          "text": "A vendor is selling newspapers.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 0,
+      "explanationKo": "야외 길을 걷고 있는 사람이 보입니다. A가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 3,
+      "image": "images/part1/p03.jpg",
+      "imageAlt": "Cafe or restaurant interior with tables",
+      "imageSeed": "cafe-tables-03",
+      "audio": "audio/part1/item03.mp3",
+      "statements": [
+        {
+          "text": "Customers are waiting in a long ticket line.",
+          "accent": "영국",
+          "voice": "en-GB-RyanNeural"
+        },
+        {
+          "text": "A chef is flipping pancakes on a grill.",
+          "accent": "미국",
+          "voice": "en-US-JennyNeural"
+        },
+        {
+          "text": "Tables and chairs are arranged in a dining area.",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        },
+        {
+          "text": "A cashier is counting coins at a register.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 2,
+      "explanationKo": "식사 공간에 테이블과 의자가 배치된 모습이 보입니다. C가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 4,
+      "image": "images/part1/p04.jpg",
+      "imageAlt": "Modern building exterior",
+      "imageSeed": "building-exterior-04",
+      "audio": "audio/part1/item04.mp3",
+      "statements": [
+        {
+          "text": "Construction workers are installing a roof.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        },
+        {
+          "text": "A large building stands against the sky.",
+          "accent": "영국",
+          "voice": "en-GB-SoniaNeural"
+        },
+        {
+          "text": "Gardeners are planting flowers by a fence.",
+          "accent": "호주",
+          "voice": "en-AU-WilliamMultilingualNeural"
+        },
+        {
+          "text": "A truck is unloading furniture.",
+          "accent": "미국",
+          "voice": "en-US-AriaNeural"
+        }
+      ],
+      "answer": 1,
+      "explanationKo": "하늘을 배경으로 큰 건물이 보입니다. B가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 5,
+      "image": "images/part1/p05.jpg",
+      "imageAlt": "Airport or travel terminal scene",
+      "imageSeed": "airport-travel-05",
+      "audio": "audio/part1/item05.mp3",
+      "statements": [
+        {
+          "text": "Passengers are standing with luggage in a terminal.",
+          "accent": "미국",
+          "voice": "en-US-JennyNeural"
+        },
+        {
+          "text": "A pilot is boarding a small airplane alone.",
+          "accent": "영국",
+          "voice": "en-GB-RyanNeural"
+        },
+        {
+          "text": "Travelers are camping beside a runway.",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        },
+        {
+          "text": "A taxi driver is washing a car.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 0,
+      "explanationKo": "터미널에서 짐과 함께 서 있는 승객들이 보입니다. A가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 6,
+      "image": "images/part1/p06.jpg",
+      "imageAlt": "Person reading books in a quiet space",
+      "imageSeed": "library-books-06",
+      "audio": "audio/part1/item06.mp3",
+      "statements": [
+        {
+          "text": "A librarian is stacking empty cardboard boxes.",
+          "accent": "호주",
+          "voice": "en-AU-WilliamMultilingualNeural"
+        },
+        {
+          "text": "Students are performing on a stage.",
+          "accent": "미국",
+          "voice": "en-US-AriaNeural"
+        },
+        {
+          "text": "Someone is reading near shelves of books.",
+          "accent": "영국",
+          "voice": "en-GB-SoniaNeural"
+        },
+        {
+          "text": "A clerk is sweeping the hallway.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 2,
+      "explanationKo": "책장 근처에서 책을 읽고 있는 사람이 보입니다. C가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 7,
+      "image": "images/part1/p07.jpg",
+      "imageAlt": "Kitchen or food preparation area",
+      "imageSeed": "kitchen-food-07",
+      "audio": "audio/part1/item07.mp3",
+      "statements": [
+        {
+          "text": "Food is being prepared in a kitchen.",
+          "accent": "미국",
+          "voice": "en-US-JennyNeural"
+        },
+        {
+          "text": "A waiter is setting outdoor picnic tables.",
+          "accent": "영국",
+          "voice": "en-GB-RyanNeural"
+        },
+        {
+          "text": "Guests are dancing in a banquet hall.",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        },
+        {
+          "text": "A delivery person is ringing a doorbell.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 0,
+      "explanationKo": "주방에서 음식이 준비되는 장면입니다. A가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 8,
+      "image": "images/part1/p08.jpg",
+      "imageAlt": "People exercising or relaxing in a park",
+      "imageSeed": "park-exercise-08",
+      "audio": "audio/part1/item08.mp3",
+      "statements": [
+        {
+          "text": "A lifeguard is sitting beside an indoor pool.",
+          "accent": "영국",
+          "voice": "en-GB-SoniaNeural"
+        },
+        {
+          "text": "People are enjoying outdoor activities in a park.",
+          "accent": "호주",
+          "voice": "en-AU-WilliamMultilingualNeural"
+        },
+        {
+          "text": "A musician is tuning a piano indoors.",
+          "accent": "미국",
+          "voice": "en-US-AriaNeural"
+        },
+        {
+          "text": "Shoppers are pushing carts in a supermarket.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 1,
+      "explanationKo": "공원에서 야외 활동을 즐기는 사람들이 보입니다. B가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 9,
+      "image": "images/part1/p09.jpg",
+      "imageAlt": "Person working at a computer desk",
+      "imageSeed": "desk-computer-09",
+      "audio": "audio/part1/item09.mp3",
+      "statements": [
+        {
+          "text": "A technician is repairing an elevator.",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        },
+        {
+          "text": "A woman is painting a mural on a wall.",
+          "accent": "영국",
+          "voice": "en-GB-RyanNeural"
+        },
+        {
+          "text": "Someone is working at a desk with a computer.",
+          "accent": "미국",
+          "voice": "en-US-JennyNeural"
+        },
+        {
+          "text": "Employees are lining up at a cafeteria.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 2,
+      "explanationKo": "책상에서 컴퓨터를 사용하며 일하는 모습이 보입니다. C가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 10,
+      "image": "images/part1/p10.jpg",
+      "imageAlt": "Busy city street with vehicles or pedestrians",
+      "imageSeed": "city-street-10",
+      "audio": "audio/part1/item10.mp3",
+      "statements": [
+        {
+          "text": "Vehicles and pedestrians are on a city street.",
+          "accent": "영국",
+          "voice": "en-GB-SoniaNeural"
+        },
+        {
+          "text": "Farmers are harvesting crops in a field.",
+          "accent": "호주",
+          "voice": "en-AU-WilliamMultilingualNeural"
+        },
+        {
+          "text": "A couple is boarding a cruise ship.",
+          "accent": "미국",
+          "voice": "en-US-AriaNeural"
+        },
+        {
+          "text": "Workers are assembling toys in a factory.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 0,
+      "explanationKo": "도시 거리에 차량과 보행자가 있습니다. A가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    }
+  ],
+  "part2": [
+    {
+      "id": 1,
+      "audio": "audio/part2/item01.mp3",
+      "question": {
+        "text": "Where is the nearest post office?",
+        "accent": "미국",
+        "voice": "en-US-JennyNeural"
+      },
+      "responses": [
+        {
+          "text": "It's across from the bank on Main Street.",
+          "accent": "영국",
+          "voice": "en-GB-RyanNeural"
+        },
+        {
+          "text": "I mailed the package yesterday.",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        },
+        {
+          "text": "The meeting starts at three.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 0,
+      "explanationKo": "장소(Where) 질문에는 위치를 알려 주는 A가 적절합니다. B는 과거 행동, C는 시간 정보로 동문서답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 2,
+      "audio": "audio/part2/item02.mp3",
+      "question": {
+        "text": "Would you like some coffee?",
+        "accent": "영국",
+        "voice": "en-GB-SoniaNeural"
+      },
+      "responses": [
+        {
+          "text": "Yes, I'd love a cup, thank you.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        },
+        {
+          "text": "The machine is near the window.",
+          "accent": "호주",
+          "voice": "en-AU-WilliamMultilingualNeural"
+        },
+        {
+          "text": "Coffee is grown in warm climates.",
+          "accent": "미국",
+          "voice": "en-US-AriaNeural"
+        }
+      ],
+      "answer": 0,
+      "explanationKo": "제안(Would you like~)에는 수락/거절이 자연스럽습니다. A가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 3,
+      "audio": "audio/part2/item03.mp3",
+      "question": {
+        "text": "Who will present the sales report?",
+        "accent": "호주",
+        "voice": "en-AU-NatashaNeural"
+      },
+      "responses": [
+        {
+          "text": "The report is twenty pages long.",
+          "accent": "영국",
+          "voice": "en-GB-RyanNeural"
+        },
+        {
+          "text": "Ms. Chen from the marketing team.",
+          "accent": "미국",
+          "voice": "en-US-JennyNeural"
+        },
+        {
+          "text": "I'll print extra copies later.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 1,
+      "explanationKo": "Who 질문에는 사람(이름/역할)이 답입니다. B가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 4,
+      "audio": "audio/part2/item04.mp3",
+      "question": {
+        "text": "When does the train leave for Boston?",
+        "accent": "미국",
+        "voice": "en-US-GuyNeural"
+      },
+      "responses": [
+        {
+          "text": "Platform four is closed today.",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        },
+        {
+          "text": "It departs at half past nine.",
+          "accent": "영국",
+          "voice": "en-GB-SoniaNeural"
+        },
+        {
+          "text": "Boston is a popular destination.",
+          "accent": "미국",
+          "voice": "en-US-AriaNeural"
+        }
+      ],
+      "answer": 1,
+      "explanationKo": "When 질문에는 시간이 필요합니다. B가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 5,
+      "audio": "audio/part2/item05.mp3",
+      "question": {
+        "text": "How long have you worked here?",
+        "accent": "영국",
+        "voice": "en-GB-RyanNeural"
+      },
+      "responses": [
+        {
+          "text": "For about three years now.",
+          "accent": "호주",
+          "voice": "en-AU-WilliamMultilingualNeural"
+        },
+        {
+          "text": "I work in the accounting department.",
+          "accent": "미국",
+          "voice": "en-US-JennyNeural"
+        },
+        {
+          "text": "The office opens at eight.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 0,
+      "explanationKo": "How long(기간)에는 for/since 등 기간 답이 옵니다. A가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 6,
+      "audio": "audio/part2/item06.mp3",
+      "question": {
+        "text": "Could you send me the invoice?",
+        "accent": "호주",
+        "voice": "en-AU-WilliamMultilingualNeural"
+      },
+      "responses": [
+        {
+          "text": "Of course. I'll email it this afternoon.",
+          "accent": "미국",
+          "voice": "en-US-AriaNeural"
+        },
+        {
+          "text": "The invoice lists several items.",
+          "accent": "영국",
+          "voice": "en-GB-SoniaNeural"
+        },
+        {
+          "text": "Accounting is on the second floor.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 0,
+      "explanationKo": "요청에는 승낙+행동이 자연스럽습니다. A가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 7,
+      "audio": "audio/part2/item07.mp3",
+      "question": {
+        "text": "Is this seat taken?",
+        "accent": "미국",
+        "voice": "en-US-JennyNeural"
+      },
+      "responses": [
+        {
+          "text": "No, please go ahead and sit down.",
+          "accent": "영국",
+          "voice": "en-GB-RyanNeural"
+        },
+        {
+          "text": "The seats were redesigned last year.",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        },
+        {
+          "text": "I prefer window seats on flights.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 0,
+      "explanationKo": "Yes/No 질문에 직접 답하는 A가 적절합니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 8,
+      "audio": "audio/part2/item08.mp3",
+      "question": {
+        "text": "Why was the workshop postponed?",
+        "accent": "영국",
+        "voice": "en-GB-SoniaNeural"
+      },
+      "responses": [
+        {
+          "text": "The workshop covers project management.",
+          "accent": "미국",
+          "voice": "en-US-AriaNeural"
+        },
+        {
+          "text": "Because the speaker had a scheduling conflict.",
+          "accent": "호주",
+          "voice": "en-AU-WilliamMultilingualNeural"
+        },
+        {
+          "text": "Registration closes next Friday.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "answer": 1,
+      "explanationKo": "Why에는 이유(because~)가 옵니다. B가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 9,
+      "audio": "audio/part2/item09.mp3",
+      "question": {
+        "text": "Have you finished reviewing the contract?",
+        "accent": "미국",
+        "voice": "en-US-GuyNeural"
+      },
+      "responses": [
+        {
+          "text": "Not yet, but I should be done by noon.",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        },
+        {
+          "text": "Contracts must be signed in ink.",
+          "accent": "영국",
+          "voice": "en-GB-RyanNeural"
+        },
+        {
+          "text": "The lawyer's office is downtown.",
+          "accent": "미국",
+          "voice": "en-US-JennyNeural"
+        }
+      ],
+      "answer": 0,
+      "explanationKo": "완료 여부 질문에는 진행 상황 답이 맞습니다. A가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 10,
+      "audio": "audio/part2/item10.mp3",
+      "question": {
+        "text": "What's the weather like outside?",
+        "accent": "호주",
+        "voice": "en-AU-NatashaNeural"
+      },
+      "responses": [
+        {
+          "text": "I left my umbrella at home.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        },
+        {
+          "text": "It's sunny and quite warm today.",
+          "accent": "영국",
+          "voice": "en-GB-SoniaNeural"
+        },
+        {
+          "text": "The forecast is updated hourly.",
+          "accent": "미국",
+          "voice": "en-US-AriaNeural"
+        }
+      ],
+      "answer": 1,
+      "explanationKo": "날씨 질문에는 현재 날씨 묘사가 답입니다. B가 정답입니다.",
+      "accents": [
+        "영국",
+        "호주",
+        "미국"
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "id": 1,
+      "title": "Office printer problem",
+      "audio": "audio/part3/conv01.mp3",
+      "transcript": "Hi, Mark. Is the printer on the third floor working? I need to print the client packets.\nI'm afraid not. It jammed again this morning. IT said they'll replace the toner after lunch.\nOkay. I'll use the one near reception for now. Could you let me know when it's fixed?\nSure. I'll send you a quick message.",
+      "speakers": [
+        {
+          "text": "Hi, Mark. Is the printer on the third floor working? I need to print the client packets.",
+          "accent": "미국",
+          "voice": "en-US-JennyNeural"
+        },
+        {
+          "text": "I'm afraid not. It jammed again this morning. IT said they'll replace the toner after lunch.",
+          "accent": "영국",
+          "voice": "en-GB-RyanNeural"
+        },
+        {
+          "text": "Okay. I'll use the one near reception for now. Could you let me know when it's fixed?",
+          "accent": "미국",
+          "voice": "en-US-JennyNeural"
+        },
+        {
+          "text": "Sure. I'll send you a quick message.",
+          "accent": "영국",
+          "voice": "en-GB-RyanNeural"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the woman's problem?",
+          "choices": [
+            "She lost the client packets.",
+            "The third-floor printer is not working.",
+            "Reception is closed for lunch.",
+            "IT asked her to buy toner."
+          ],
+          "answer": 1,
+          "explanationKo": "여자가 3층 프린터가 작동하는지 묻고, 남자는 고장(jam)이라고 합니다. 정답은 B입니다."
+        },
+        {
+          "q": "When will IT replace the toner?",
+          "choices": [
+            "This morning",
+            "Before the meeting",
+            "After lunch",
+            "Tomorrow"
+          ],
+          "answer": 2,
+          "explanationKo": "남자가 after lunch에 토너를 교체할 것이라고 말합니다."
+        },
+        {
+          "q": "What will the woman do in the meantime?",
+          "choices": [
+            "Wait until IT arrives",
+            "Call the client",
+            "Use the printer near reception",
+            "Cancel the packets"
+          ],
+          "answer": 2,
+          "explanationKo": "여자가 당분간 reception 근처 프린터를 쓰겠다고 합니다."
+        }
+      ],
+      "accents": [
+        "영국",
+        "미국"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Restaurant reservation",
+      "audio": "audio/part3/conv02.mp3",
+      "transcript": "Good afternoon. I'd like to reserve a table for Saturday evening.\nCertainly. How many people will be in your party?\nFour adults. Could we have a quiet table near the window if possible?\nWe can do seven-thirty by the window. May I have a name and phone number?\nIt's Underwood, and my number is five-five-five, zero-one-four-two.",
+      "speakers": [
+        {
+          "text": "Good afternoon. I'd like to reserve a table for Saturday evening.",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        },
+        {
+          "text": "Certainly. How many people will be in your party?",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        },
+        {
+          "text": "Four adults. Could we have a quiet table near the window if possible?",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        },
+        {
+          "text": "We can do seven-thirty by the window. May I have a name and phone number?",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        },
+        {
+          "text": "It's Underwood, and my number is five-five-five, zero-one-four-two.",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        }
+      ],
+      "questions": [
+        {
+          "q": "When does the woman want to dine?",
+          "choices": [
+            "Friday lunch",
+            "Saturday evening",
+            "Sunday brunch",
+            "Monday night"
+          ],
+          "answer": 1,
+          "explanationKo": "Saturday evening 예약을 요청합니다."
+        },
+        {
+          "q": "What special request does she make?",
+          "choices": [
+            "A menu in another language",
+            "A birthday cake",
+            "A quiet table near the window",
+            "Free parking validation"
+          ],
+          "answer": 2,
+          "explanationKo": "창문 근처의 조용한 자리를 요청합니다."
+        },
+        {
+          "q": "What time is available?",
+          "choices": [
+            "6:00",
+            "6:30",
+            "7:00",
+            "7:30"
+          ],
+          "answer": 3,
+          "explanationKo": "직원이 seven-thirty(7:30) 창문 자리를 제안합니다."
+        }
+      ],
+      "accents": [
+        "호주",
+        "미국"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Project deadline discussion",
+      "audio": "audio/part3/conv03.mp3",
+      "transcript": "Tom, do you have a minute? The design files for the brochure still aren't in the shared folder.\nSorry about that. I was waiting on final photos from the vendor. They arrived an hour ago.\nGreat. Can you upload them before four? Marketing wants to review everything today.\nNo problem. I'll finish the layout and send a link to the team.",
+      "speakers": [
+        {
+          "text": "Tom, do you have a minute? The design files for the brochure still aren't in the shared folder.",
+          "accent": "영국",
+          "voice": "en-GB-SoniaNeural"
+        },
+        {
+          "text": "Sorry about that. I was waiting on final photos from the vendor. They arrived an hour ago.",
+          "accent": "호주",
+          "voice": "en-AU-WilliamMultilingualNeural"
+        },
+        {
+          "text": "Great. Can you upload them before four? Marketing wants to review everything today.",
+          "accent": "영국",
+          "voice": "en-GB-SoniaNeural"
+        },
+        {
+          "text": "No problem. I'll finish the layout and send a link to the team.",
+          "accent": "호주",
+          "voice": "en-AU-WilliamMultilingualNeural"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What has been missing?",
+          "choices": [
+            "The marketing schedule",
+            "Design files for a brochure",
+            "Vendor invoices",
+            "A shared password"
+          ],
+          "answer": 1,
+          "explanationKo": "브로슈어 design files가 공유 폴더에 없다고 합니다."
+        },
+        {
+          "q": "Why was Tom delayed?",
+          "choices": [
+            "He was in a meeting all day.",
+            "His computer crashed.",
+            "He was waiting for final photos.",
+            "Marketing changed the deadline."
+          ],
+          "answer": 2,
+          "explanationKo": "벤더의 final photos를 기다리고 있었다고 합니다."
+        },
+        {
+          "q": "What does the woman ask Tom to do?",
+          "choices": [
+            "Call the vendor again",
+            "Upload the files before four",
+            "Print the brochure",
+            "Cancel the review"
+          ],
+          "answer": 1,
+          "explanationKo": "4시 전에 업로드해 달라고 요청합니다."
+        }
+      ],
+      "accents": [
+        "영국",
+        "호주"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Hotel check-in",
+      "audio": "audio/part3/conv04.mp3",
+      "transcript": "Hello, I have a reservation under the name Patel.\nWelcome. I see a room for two nights. Would you prefer a king bed or two queens?\nA king bed, please. Also, is the fitness center open early?\nYes, it opens at five a.m. Breakfast is served from six-thirty in the lobby cafe.",
+      "speakers": [
+        {
+          "text": "Hello, I have a reservation under the name Patel.",
+          "accent": "미국",
+          "voice": "en-US-AriaNeural"
+        },
+        {
+          "text": "Welcome. I see a room for two nights. Would you prefer a king bed or two queens?",
+          "accent": "영국",
+          "voice": "en-GB-RyanNeural"
+        },
+        {
+          "text": "A king bed, please. Also, is the fitness center open early?",
+          "accent": "미국",
+          "voice": "en-US-AriaNeural"
+        },
+        {
+          "text": "Yes, it opens at five a.m. Breakfast is served from six-thirty in the lobby cafe.",
+          "accent": "영국",
+          "voice": "en-GB-RyanNeural"
+        }
+      ],
+      "questions": [
+        {
+          "q": "How long will the guest stay?",
+          "choices": [
+            "One night",
+            "Two nights",
+            "Three nights",
+            "One week"
+          ],
+          "answer": 1,
+          "explanationKo": "직원이 a room for two nights라고 확인합니다."
+        },
+        {
+          "q": "What bed type does the guest choose?",
+          "choices": [
+            "Two twins",
+            "Two queens",
+            "A king",
+            "A sofa bed"
+          ],
+          "answer": 2,
+          "explanationKo": "A king bed, please라고 말합니다."
+        },
+        {
+          "q": "When does the fitness center open?",
+          "choices": [
+            "5:00 a.m.",
+            "6:00 a.m.",
+            "6:30 a.m.",
+            "7:00 a.m."
+          ],
+          "answer": 0,
+          "explanationKo": "헬스장은 five a.m.에 연다고 합니다. 6:30은 조식 시간입니다."
+        }
+      ],
+      "accents": [
+        "영국",
+        "미국"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Conference volunteer shift",
+      "audio": "audio/part3/conv05.mp3",
+      "transcript": "Are you volunteering at the registration desk tomorrow?\nYes, from nine to noon. After that I'll help in the exhibitor hall.\nPerfect. Could you bring extra name badges? We ran short yesterday.\nI'll pick some up from the supply room this evening.",
+      "speakers": [
+        {
+          "text": "Are you volunteering at the registration desk tomorrow?",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        },
+        {
+          "text": "Yes, from nine to noon. After that I'll help in the exhibitor hall.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        },
+        {
+          "text": "Perfect. Could you bring extra name badges? We ran short yesterday.",
+          "accent": "호주",
+          "voice": "en-AU-NatashaNeural"
+        },
+        {
+          "text": "I'll pick some up from the supply room this evening.",
+          "accent": "미국",
+          "voice": "en-US-GuyNeural"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Where will the man volunteer first?",
+          "choices": [
+            "The exhibitor hall",
+            "The supply room",
+            "The registration desk",
+            "The keynote stage"
+          ],
+          "answer": 2,
+          "explanationKo": "아침에 registration desk에서 봉사한다고 합니다."
+        },
+        {
+          "q": "What does the woman ask him to bring?",
+          "choices": [
+            "Water bottles",
+            "Extra name badges",
+            "Floor maps",
+            "Laptops"
+          ],
+          "answer": 1,
+          "explanationKo": "extra name badges를 가져와 달라고 합니다."
+        }
+      ],
+      "accents": [
+        "호주",
+        "미국"
+      ]
+    }
+  ],
+  "part4": [
+    {
+      "id": 1,
+      "title": "Airport gate announcement",
+      "audio": "audio/part4/talk01.mp3",
+      "transcript": "Attention passengers on Flight 628 to Seattle. Boarding will begin in fifteen minutes at Gate B12. Please have your boarding pass and identification ready. Passengers needing assistance or traveling with small children may board first. We expect to depart on time at 4:40 p.m. Thank you for flying with us.",
+      "accent": "미국",
+      "voice": "en-US-AriaNeural",
+      "questions": [
+        {
+          "q": "What is the destination of the flight?",
+          "choices": [
+            "Boston",
+            "Seattle",
+            "Chicago",
+            "Dallas"
+          ],
+          "answer": 1,
+          "explanationKo": "Flight 628 to Seattle이라고 안내합니다."
+        },
+        {
+          "q": "Where should passengers go?",
+          "choices": [
+            "Gate A4",
+            "Gate B12",
+            "Baggage claim C",
+            "Counter 15"
+          ],
+          "answer": 1,
+          "explanationKo": "Gate B12에서 탑승한다고 합니다."
+        },
+        {
+          "q": "When is departure expected?",
+          "choices": [
+            "3:40 p.m.",
+            "4:15 p.m.",
+            "4:40 p.m.",
+            "5:00 p.m."
+          ],
+          "answer": 2,
+          "explanationKo": "4:40 p.m.에 정시 출발 예정이라고 합니다."
+        }
+      ],
+      "accents": [
+        "미국"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Company training reminder",
+      "audio": "audio/part4/talk02.mp3",
+      "transcript": "Hello everyone. This is a reminder that tomorrow's customer service workshop will be held in Conference Room C from 9 a.m. to noon. Please bring a notebook and your staff ID badge. Lunch will be provided afterward in the cafeteria. If you cannot attend, notify HR by the end of today so we can offer your seat to someone on the waiting list.",
+      "accent": "영국",
+      "voice": "en-GB-RyanNeural",
+      "questions": [
+        {
+          "q": "What event is being announced?",
+          "choices": [
+            "A product launch",
+            "A customer service workshop",
+            "An HR interview",
+            "A cafeteria renovation"
+          ],
+          "answer": 1,
+          "explanationKo": "customer service workshop 안내입니다."
+        },
+        {
+          "q": "Where will the workshop take place?",
+          "choices": [
+            "The cafeteria",
+            "Conference Room C",
+            "The lobby",
+            "HR office"
+          ],
+          "answer": 1,
+          "explanationKo": "Conference Room C에서 진행됩니다."
+        },
+        {
+          "q": "What should employees do if they cannot attend?",
+          "choices": [
+            "Email their manager next week",
+            "Leave a note on the door",
+            "Notify HR by the end of today",
+            "Find their own replacement"
+          ],
+          "answer": 2,
+          "explanationKo": "참석 불가 시 오늘 중으로 HR에 알리라고 합니다."
+        }
+      ],
+      "accents": [
+        "영국"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Museum tour introduction",
+      "audio": "audio/part4/talk03.mp3",
+      "transcript": "Good morning, and welcome to the Riverside Art Museum. I'm your guide for today's highlights tour, which lasts about forty minutes. We'll begin in the modern sculpture gallery, then move to the photography exhibit on the second floor. Please keep food and drinks outside the galleries, and photography without flash is allowed. Restrooms are located near the gift shop. Let's get started.",
+      "accent": "호주",
+      "voice": "en-AU-NatashaNeural",
+      "questions": [
+        {
+          "q": "How long is the tour?",
+          "choices": [
+            "20 minutes",
+            "30 minutes",
+            "40 minutes",
+            "60 minutes"
+          ],
+          "answer": 2,
+          "explanationKo": "about forty minutes라고 말합니다."
+        },
+        {
+          "q": "Where does the tour begin?",
+          "choices": [
+            "The gift shop",
+            "The photography exhibit",
+            "The modern sculpture gallery",
+            "The second-floor cafe"
+          ],
+          "answer": 2,
+          "explanationKo": "modern sculpture gallery에서 시작한다고 합니다."
+        },
+        {
+          "q": "What rule is mentioned about photography?",
+          "choices": [
+            "No photography is allowed",
+            "Only staff may take photos",
+            "Flash photography is required",
+            "Photos without flash are allowed"
+          ],
+          "answer": 3,
+          "explanationKo": "플래시 없는 사진 촬영은 허용된다고 합니다."
+        }
+      ],
+      "accents": [
+        "호주"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Weather and traffic update",
+      "audio": "audio/part4/talk04.mp3",
+      "transcript": "Here's your mid-day update. Expect cloudy skies this afternoon with a chance of light rain after 3 p.m. Temperatures will stay near 18 degrees Celsius. On the roads, an accident on Highway 7 near Exit 12 is causing delays of up to twenty minutes for northbound traffic. Drivers are advised to use Maple Avenue as an alternate route. We'll be back with more at the top of the hour.",
+      "accent": "미국",
+      "voice": "en-US-GuyNeural",
+      "questions": [
+        {
+          "q": "What weather is expected after 3 p.m.?",
+          "choices": [
+            "Heavy snow",
+            "Strong winds",
+            "Light rain",
+            "Clear skies"
+          ],
+          "answer": 2,
+          "explanationKo": "3시 이후 light rain 가능성이 있다고 합니다."
+        },
+        {
+          "q": "What is causing traffic delays?",
+          "choices": [
+            "Road construction downtown",
+            "An accident on Highway 7",
+            "A parade on Maple Avenue",
+            "A bridge closure"
+          ],
+          "answer": 1,
+          "explanationKo": "Highway 7 Exit 12 근처 사고 때문입니다."
+        },
+        {
+          "q": "What alternate route is suggested?",
+          "choices": [
+            "Highway 9",
+            "Oak Street",
+            "Maple Avenue",
+            "Exit 15"
+          ],
+          "answer": 2,
+          "explanationKo": "Maple Avenue를 우회 경로로 권합니다."
+        }
+      ],
+      "accents": [
+        "미국"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Store promotional message",
+      "audio": "audio/part4/talk05.mp3",
+      "transcript": "Shoppers, don't miss our weekend home essentials sale. All bedding and towels are 25 percent off through Sunday. Members of our loyalty program receive an extra 10 percent discount at checkout. Visit the third floor for live demos of our new vacuum models from 1 to 4 p.m. each day. Ask any associate for a free sample of our eco-friendly detergent.",
+      "accent": "영국",
+      "voice": "en-GB-SoniaNeural",
+      "questions": [
+        {
+          "q": "What products are on sale?",
+          "choices": [
+            "Electronics only",
+            "Bedding and towels",
+            "Furniture sets",
+            "Kitchen appliances"
+          ],
+          "answer": 1,
+          "explanationKo": "bedding and towels가 25% 할인입니다."
+        },
+        {
+          "q": "Where are the vacuum demos?",
+          "choices": [
+            "Basement",
+            "First floor",
+            "Second floor",
+            "Third floor"
+          ],
+          "answer": 3,
+          "explanationKo": "third floor에서 시연이 있습니다."
+        },
+        {
+          "q": "What can shoppers get for free?",
+          "choices": [
+            "A loyalty card",
+            "A vacuum bag",
+            "A detergent sample",
+            "Weekend parking"
+          ],
+          "answer": 2,
+          "explanationKo": "친환경 detergent 무료 샘플을 받을 수 있다고 합니다."
+        }
+      ],
+      "accents": [
+        "영국"
+      ]
+    }
+  ]
+}
